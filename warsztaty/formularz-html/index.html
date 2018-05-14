@@ -27,7 +27,7 @@
             <label for="">E-mail</label><br/>
             <input type="email" name="email" id="email"><br/>
             <label for="phone">Numer telefonu</label><br/>
-            <input type="text" name="phone" id="phone"><br/>
+            <input type="text" name="phone" id="phone" pattern="[\+\s\(\)]\d{11,}" autofocus title="Wprowadź prawidłowy numer telefonu"><br/>
         </fieldset>
         <label for="message">Wiadomość</label><br/>
         <textarea name="message" id="message" maxlength="1000"></textarea><br/>
