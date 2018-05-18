@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jan Bordo - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:100" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#about-me">o mnie</a></li>
+            <li><a href="#skills">umiejętności</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">kontakt</a></li>
+        </ul>
+    </nav>
+    <header id="header">
+        <div class="header-author">
+            <h1>Jan <span><strong>Bordo</strong></span></h1>
+            <h2>Front-End Developer</h2>
+        </div>
+    </header>
+    <section id="about-me">
+        <h2 id="about-me-header">O <span>mnie</span></h2>
+        <div class="container-about-me">
+            <div class="about-me">
+                <figure>
+                    <img src="../portfolio/img/jan-nowak.jpg" alt="Jan Nowak">
+                </figure>
+            </div>
+            <div class="about-me">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum facilis ipsa quo, illum esse, optio dolor reprehenderit, ratione nihil velit debitis omnis, nostrum libero commodi voluptas ipsam molestiae nesciunt fugit laboriosam sit et quibusdam. Tenetur possimus quasi aliquid. Cumque tempora sunt vel accusantium quae quo ex odit placeat expedita cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat eligendi magnam quo ab dolor quis ullam itaque deleniti laudantium repellendus soluta culpa qui sequi eum hic autem, assumenda optio eius quidem. Esse obcaecati sed, cum non, consequuntur temporibus. Quaerat veritatis cumque distinctio suscipit, similique deleniti! Libero facere at ullam quisquam!</div>
+        </div>
+
+    </section>
+    <section class="skills" id="skills">
+        <h2>Moje <span>umiejętności</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque facere, temporibus. Facilis sint mollitia doloribus quod, voluptas, sequi repellendus. Consequuntur porro, molestias. Quo, iusto repellendus in pariatur error, commodi illo.</p>
+        <div class="skills-logo">
+            <figure>
+                <img src="../portfolio/icons/html5.png" alt="HTML5">
+                <figcaption>HTML5</figcaption>
+            </figure>
+            <figure>
+                <img src="../portfolio/icons/css3.png" alt="CSS3">
+                <figcaption>CSS3</figcaption>
+            </figure>
+            <figure>
+                <img src="../portfolio/icons/js.png" alt="JavaScript">
+                <figcaption>JavaScript</figcaption>
+            </figure>
+            <figure>
+                <img src="../portfolio/icons/jquery.png" alt="JQuery">
+                <figcaption>JQuery</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2>Moje <span>portfolio</span></h2>
+        <div class="portfolio-gallery">
+            <div class="gallery" id="pf1">
+                <div class="pf-mask">
+                    <div class="pf-border">
+                        <div class="pf-text">
+                        <h2 class="pf-header">projekt 1</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident ad, labore recusandae ex similique reiciendis nihil voluptatem illo asperiores corporis.</p>
+                        <h3>Wykorzystane technologie</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, explicabo.</p>
+                        <i class="fas fa-link"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="gallery" id="pf2">
+                <div class="pf-mask">
+                    <div class="pf-border">
+                        <div class="pf-text">
+                        <h2 class="pf-header">projekt 2</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, facilis! Est sed aperiam, eius illo nulla ex, architecto? Tempore, tempora.</p>
+                        <h3>Wykorzystane technologie</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, explicabo.</p>
+                        <i class="fas fa-link"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>    
+            <div class="gallery" id="pf3">
+                <div class="pf-mask">
+                    <div class="pf-border">
+                        <div class="pf-text">
+                        <h2 class="pf-header">projekt 3</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, ullam quas! Vero laborum nulla, cupiditate in quo repellendus unde ab.</p>
+                        <h3>Wykorzystane technologie</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, explicabo.</p>
+                        <i class="fas fa-link"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="address">
+        <address>
+            <h1>Jan <span>Bordo</span></h1>
+            <br/>
+            ul. Warszawska 1/1<br/>
+            00-001 Warszawa<br/>
+            <br/>
+            tel. 123 456 789<br/>
+            e-mail: <a href="mailto:janek.bordo@gmail.com?Subject=Cześć%20Janek" target="_top"><span>janek.bordo@gmail.com</span></a>
+        </address>
+        </div>
+        <div class="address">
+        <form action="">
+            <input type="text" placeholder="Imię i Nazwisko">
+            <input type="email" placeholder="E-mail">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Treść wiadomości"></textarea>
+            <input type="submit" value="Wyślij" id="btn">
+        </form>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
