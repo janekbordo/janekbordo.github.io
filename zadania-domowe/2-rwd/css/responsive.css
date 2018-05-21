@@ -12,7 +12,7 @@
 @media all and (max-width:992px) {
     .header {
         background-image: url(../obrazy/man-1.jpg);
-        background-size: 100%;
+        background-size: cover;
         height: 400px;
     }
     .header .inner-header {
