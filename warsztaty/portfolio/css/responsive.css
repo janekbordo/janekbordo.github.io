@@ -1,0 +1,35 @@
+@media all and (max-width: 992px) {
+
+    .container-about-me {
+        display: inline-block;
+        width: 100%;
+    }
+    .about-me {
+        width: 100%;
+        display: inline-block;
+        float: left;
+        padding: 5px;
+        font-size: 2vw;
+    }
+    .skills p {
+        font-size: 2vw;
+    }
+    
+    #pf1.gallery{
+    width: 100%;
+        background-size: cover;
+}
+
+#pf2.gallery{
+
+    width: 100%;
+    background-size: cover;
+}
+
+#pf3.gallery{
+
+    width: 100%;
+    background-size: cover;
+}
+
+}
