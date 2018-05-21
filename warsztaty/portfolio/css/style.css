@@ -6,11 +6,16 @@ body {
     margin: 0;
     font-family: 'Lato', sans-serif;
     color: #291f1a;
-    background-color: #FFFFFF;
+
 }
 
 nav {
     height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFF;
 }
 
 nav ul {
@@ -20,11 +25,20 @@ nav ul {
     margin: 0;
 }
 
+nav label,
+#rwdmenu{
+    display: none;
+}
+
 nav ul li {
     list-style: none;
     display: inline-block;
     padding-left: 25px;
     padding-right: 25px;
+}
+
+nav ul li.rwd-menu {
+  display: none;
 }
 
 nav ul li a {
@@ -37,13 +51,13 @@ a{
     color: #1ac056;
 }
 
+
 #header {
     background-image: url(../img/header-background.jpg);
     background-size: 100%;
     background-size: cover;
-    width: 100%;
     height: 100vh;
-    position: relative;
+
 }
 
 .header-author {
@@ -51,7 +65,7 @@ a{
     color: #ffffff;
     position: absolute;
     width: 100%;
-    top: 40%;
+    top: 50%;
     text-align: center;
 }
 
@@ -78,19 +92,19 @@ section#about-me {
 }
 
 section#about-me h2#about-me-header {
-    width: 100%;
     text-align: center;
     font-weight: 300;
 
 }
 
+/*container jest blokowy, kiedy wrzuce za ostatni element float "clear",te style sa niepotrzebne*/
 .container-about-me {
     display: inline-block;
     width: 100%;
 }
 
 .about-me {
-    width: 49%;
+    width: 50%;
     display: inline-block;
     float: left;
 }
@@ -104,6 +118,10 @@ section#about-me h2#about-me-header {
     border-radius: 5px;
 }
 
+.about-me p{
+    text-align: left;
+}
+
 h2{
     margin-bottom: 30px;
 }
@@ -113,8 +131,14 @@ h2{
 }
 
 .skills-logo{
-    display: inline-flex;
+
 }
+
+.skills-logo figure{
+    display: inline-block;
+}
+
+
 
 section{
     padding-top: 30px;
@@ -125,11 +149,11 @@ section{
     text-align: center;
     margin-top:30px;
     margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .portfolio-gallery{
-    display: inline-block;
-    width:95%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -138,7 +162,8 @@ section{
 
 .gallery{
     height: 350px;
-    width: 300px;
+    width: 33.3333%;
+    float: left;
     background-position: center;
     background-repeat: no-repeat;
 
@@ -146,65 +171,40 @@ section{
 
 #pf1.gallery{
     background-image: url(../img/portfolio1.jpg);
-    float: left;
-    width: 33%;
 }
 
 #pf2.gallery{
     background-image: url(../img/portfolio2.jpg);
-    float: left;
-    width: 33%;
 }
 
 #pf3.gallery{
     background-image: url(../img/portfolio3.jpg);
-    float: left;
-    width: 33%;
 }
 
 .pf-mask{
     background-color: rgba(42,61,79,0.8);
-    width: 100%;
     height:100%;
     padding: 10px;
     opacity: 0;
+    transition-duration: 0.5s;
+
 }
 
 .pf-border{
     position: relative;
-    display: block;
-    width: 100%;
     height:100%;
     border: 1px solid #ffffff;
-/*    opacity:0;*/
 }
 
 .pf-text{
-    display: block;
     text-align: center;
     color: #ffffff;
-/*    opacity: 0;*/
-/*    padding: -10px;*/
-/*    height:100%;*/
 }
 
 .pf-mask:hover{
     opacity: 1;
 }
-/*
 
-.pf-border:hover{
-    opacity: 1;
-}
-
-.pf-text:hover{
-    opacity: 1;
-}
-*/
-
-.pf-header{
-    
-}
 
 .fa-link{
     color: #ffffff;
@@ -217,13 +217,12 @@ section{
 
 #contact{
     background-color: #213b50;
-    width:100%;
     overflow: hidden;
     padding: 40px;
 }
 
 .address{
-    width:49%;
+    width: 50%;
     display:inline-block;
     float: left;
     padding: 10px;
@@ -238,7 +237,6 @@ address{
 }
 
 .sm-icons{
-    display: inline-block;
     color:#ffffff;
     font-size:15px;
     margin-top:10px;
@@ -265,12 +263,14 @@ background-color: #213b50;
 textarea{
     height:100px;
     background-color: #2e4d66;
+    border: 0;
 }
 
 form input{
     height: 35px;
-    padding-left: 5px;
+    padding: 5px;
     background-color: #2e4d66;
+    border: 0;
 }
 
 #btn{

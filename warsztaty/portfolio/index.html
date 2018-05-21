@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Jan Bordo - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:100" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -12,13 +13,15 @@
 
 <body>
     <nav>
+       <label for="rwdmenu">MENU</label>
+       <input type="checkbox" id="rwdmenu">
         <ul>
-            <li><a href="#about-me">o mnie</a></li>
-            <li><a href="#skills">umiejętności</a></li>
-            <li><a href="#portfolio">portfolio</a></li>
-            <li><a href="#contact">kontakt</a></li>
+            <li class="nav-menu"><a href="#about-me">o mnie</a></li>
+            <li class="nav-menu"><a href="#skills">umiejętności</a></li>
+            <li class="nav-menu"><a href="#portfolio">portfolio</a></li>
+            <li class="nav-menu"><a href="#contact">kontakt</a></li>
         </ul>
-    </nav>
+    </nav>    
     <header id="header">
         <div class="header-author">
             <h1>Jan <span><strong>Bordo</strong></span></h1>
@@ -33,7 +36,9 @@
                     <img src="../portfolio/img/jan-nowak.jpg" alt="Jan Nowak">
                 </figure>
             </div>
-            <div class="about-me">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum facilis ipsa quo, illum esse, optio dolor reprehenderit, ratione nihil velit debitis omnis, nostrum libero commodi voluptas ipsam molestiae nesciunt fugit laboriosam sit et quibusdam. Tenetur possimus quasi aliquid. Cumque tempora sunt vel accusantium quae quo ex odit placeat expedita cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat eligendi magnam quo ab dolor quis ullam itaque deleniti laudantium repellendus soluta culpa qui sequi eum hic autem, assumenda optio eius quidem. Esse obcaecati sed, cum non, consequuntur temporibus. Quaerat veritatis cumque distinctio suscipit, similique deleniti! Libero facere at ullam quisquam!</div>
+            <div class="about-me"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum facilis ipsa quo, illum esse, optio dolor reprehenderit, ratione nihil velit debitis omnis, nostrum libero commodi voluptas ipsam molestiae nesciunt fugit laboriosam sit et quibusdam. Tenetur possimus quasi aliquid. Cumque tempora sunt vel accusantium quae quo ex odit placeat expedita cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat eligendi magnam quo ab dolor quis ullam itaque deleniti laudantium repellendus soluta culpa qui sequi eum hic autem, assumenda optio eius quidem. Esse obcaecati sed, cum non, consequuntur temporibus. Quaerat veritatis cumque distinctio suscipit, similique deleniti! Libero facere at ullam quisquam!</p>
+            </div>
+<!--            potrzebny clear, dodatkowo opakowac tekst w divie w jakis semantyczny znacznik-->
         </div>
 
     </section>
@@ -108,21 +113,21 @@
     </section>
     <section id="contact">
         <div class="address">
-        <address>
-            <h1>Jan <span>Bordo</span></h1>
-            <br/>
-            ul. Warszawska 1/1<br/>
-            00-001 Warszawa<br/>
-            <br/>
-            tel. 123 456 789<br/>
-            e-mail: <a href="mailto:janek.bordo@gmail.com?Subject=Cześć%20Janek" target="_top"><span>janek.bordo@gmail.com</span></a>
-        </address>
-        <div class="sm-icons">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-google-plus-g"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-linkedin-in"></i>
-        </div>
+            <address>
+                <h1>Jan <span>Bordo</span></h1>
+                <br/>
+                ul. Warszawska 1/1<br/>
+                00-001 Warszawa<br/>
+                <br/>
+                tel. 123 456 789<br/>
+                e-mail: <a href="mailto:janek.bordo@gmail.com?Subject=Cześć%20Janek" target="_top"><span>janek.bordo@gmail.com</span></a>
+            </address>
+            <div class="sm-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
         </div>
         <div class="address">
         <form action="">
