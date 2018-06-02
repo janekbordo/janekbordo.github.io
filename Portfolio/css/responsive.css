@@ -45,6 +45,7 @@
     
     nav ul{
         display: none;
+        
     }
     
     #rwdmenu:checked + ul{
@@ -52,13 +53,12 @@
         position: static;
         background-color: #fff;
         width: 30%;
+        margin-left:70%;
     }
     
     nav ul li{
         display: block;
     }
-    
-    
     
     .about-me p {
         text-align: center;
