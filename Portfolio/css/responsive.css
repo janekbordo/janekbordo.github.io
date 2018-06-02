@@ -1,0 +1,91 @@
+@media all and (max-width: 992px) {
+
+    .container-about-me {
+        display: inline-block;
+        width: 100%;
+    }
+    .about-me {
+        width: 100%;
+        display: inline-block;
+        float: left;
+        padding: 5px;
+        font-size: 2vw;
+    }
+    .skills p {
+        font-size: 2vw;
+    }
+
+    #pf1.gallery {
+        width: 100%;
+        background-size: cover;
+    }
+
+    #pf2.gallery {
+
+        width: 100%;
+        background-size: cover;
+    }
+
+    #pf3.gallery {
+
+        width: 100%;
+        background-size: cover;
+    }
+
+    /*responsive nav bar*/
+    
+    nav label{
+        display: block;
+        text-align: right;
+        line-height: 80px;
+        margin-right: 25px;
+        color: #1ac056;
+    }
+    
+    
+    nav ul{
+        display: none;
+    }
+    
+    #rwdmenu:checked + ul{
+        display: block;
+        position: static;
+        background-color: #fff;
+        width: 30%;
+    }
+    
+    nav ul li{
+        display: block;
+    }
+    
+    
+    
+    .about-me p {
+        text-align: center;
+    }
+
+    .address {
+        width: 100%;
+        display: block;
+        padding: 10px;
+
+    }
+    .address address {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+    }
+    .address .sm-icons {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .address form {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+
+}
