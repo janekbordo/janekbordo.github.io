@@ -1,0 +1,88 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rajdhani', 'sans-serif';
+    font-size: 2vw;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    color: #000;
+    z-index: 99999;
+    text-align: center;
+}
+
+#background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(../img/jesus-kiteque-224069-unsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+}
+
+#main .inner-main {
+    display: inline-block;
+    padding: 30px;
+}
+
+
+#main .inner-main .fa-arrow-up {
+    color: #00FF00;
+}
+
+
+#main .inner-main .fa-arrow-down {
+    color: #FF0000;
+}
+
+
+#main .inner-main .fa-minus-square {
+    color: #FFFF00;
+}
+
+
+
+@media all and (max-width: 992px) {
+    font
+}
+
+
+@media all and (max-width: 768px) {
+
+    body {
+        font-family: 'Rajdhani', 'sans-serif';
+        font-size: 3vw;
+        background-color: slategrey;
+        color:#fff;
+    }
+
+
+    #main .inner-main {
+        display: block;
+        padding: 10px;
+    }
+
+    #background {
+        display: none;
+    }
+    
+
+}
+
+@media all and (max-width: 600px) {
+    body {
+        font-size: 4vw;
+    }
+
+
+}
