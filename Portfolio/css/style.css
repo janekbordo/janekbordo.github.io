@@ -43,17 +43,17 @@ nav ul li.rwd-menu {
 
 nav ul li a {
     text-decoration: none;
-    color: #1ac056;
+    color: #2589BD;
 
 }
 
 a{
-    color: #1ac056;
+    color: #2589BD;
 }
 
 
 #header {
-    background-image: url(../img/header-background.jpg);
+    background-image: url(../img/ian-schneider-66374-unsplash.jpg);
     background-size: 100%;
     background-size: cover;
     height: 100vh;
@@ -65,7 +65,7 @@ a{
     color: #ffffff;
     position: absolute;
     width: 100%;
-    top: 50%;
+    top: 40%;
     text-align: center;
 }
 
@@ -76,11 +76,12 @@ a{
 
 
 .header-author h2 {
-    font-weight: lighter;
+    font-weight:900;
+    color: #187795;
 }
 
 span {
-    color: #1ac056;
+    color: #2589BD;
     font-weight: 800;
 }
 
@@ -120,6 +121,7 @@ section#about-me h2#about-me-header {
 
 .about-me p{
     text-align: left;
+    padding: 10px;
 }
 
 h2{
@@ -216,7 +218,7 @@ section{
 }
 
 #contact{
-    background-color: #213b50;
+    background-color: #346163;
     overflow: hidden;
     padding: 40px;
 }
@@ -240,8 +242,12 @@ address{
     color:#ffffff;
     font-size:15px;
     margin-top:10px;
-    
 }
+
+.sm-icons a {
+    color: #ffffff;    
+}
+
 
 i.fab{
     border: 1px solid #ffffff;
@@ -262,21 +268,21 @@ background-color: #213b50;
 
 textarea{
     height:100px;
-    background-color: #2e4d66;
+    background-color: #A3B4A2;
     border: 0;
 }
 
 form input{
     height: 35px;
     padding: 5px;
-    background-color: #2e4d66;
+    background-color: #A3B4A2;
     border: 0;
 }
 
 #btn{
     height:40px;
     width: 100px;
-    background-color: #1ac056;
+    background-color: #A3B4A2;
     color: #ffffff;
     border: 1px solid #ffffff;
     float: right;
@@ -287,7 +293,7 @@ span#mail{
 }
 
 footer{
-    background-color: #0a2f4c;
+    background-color: #A3B4A2;
     height:30px;
     margin:0;
     color:white;

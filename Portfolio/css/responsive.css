@@ -39,7 +39,7 @@
         text-align: right;
         line-height: 80px;
         margin-right: 25px;
-        color: #1ac056;
+        color: #2589BD;
     }
     
     
@@ -50,7 +50,7 @@
     
     #rwdmenu:checked + ul{
         display: block;
-        position: static;
+        position: absolute;
         background-color: #fff;
         width: 30%;
         margin-left:70%;
