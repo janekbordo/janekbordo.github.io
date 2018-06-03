@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+}
+
+header {
+    margin-top: 0;
+    background-color: #586F6B;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    color: #DDD5D0;
+
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 40px;
+}
+
+header #profile-pic {
+    position: absolute;
+    top: 25px;
+    left: 75px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    color: #fff;
+    background-image: url(../img/janek-cv.jpeg);
+    background-size: cover;
+
+}
+
+header #profile-pic #mask {
+    height: 100%;
+    width: 100%;
+    background-color: slategray;
+    border-radius: 50%;
+    opacity: 0;
+
+}
+
+header #profile-pic #mask #change-pic {
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+    background-color: inherit;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+header #profile-pic #mask:hover {
+    opacity: 0.8;
+    transition-duration: 0.6s;
+}
+
+
+
+header #contact {
+    position: absolute;
+    height: 200px;
+    width: 350px;
+    top: 0px;
+    right: 0px;
+    color: #DDD5D0;
+}
+
+header ul#personal-data {
+    position: relative;
+    top: 10px;
+    right: 0px;
+    line-height: 0;
+    padding-left: 120px;
+
+}
+
+header ul#personal-data li.personal {
+    height: 25px;
+    text-align: left;
+    list-style: none;
+    margin: 5px;
+
+}
+
+#main {
+    width: 90%;
+    height: 1000px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#main ul {
+    border-bottom: 1px solid #CFC0BD;
+}
+
+#main-left,
+#main-right {
+    width: 48%;
+    margin: 0px;
+    padding: 5px;
+    float: left;
+}
+
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+h4,
+h5 {
+    font-style: italic;
+}
+
+h2 {
+    border-bottom: 2px solid #CFC0BD;
+}
+
+#main-left {}
+
+.container {
+    width: 100%;
+    height: 30px;
+    background-color: #DDD5D0;
+}
+
+.skills-container {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: white;
+}
+
+#html,
+#css,
+#js,
+#jquery,
+#mssql{
+    background-color: #CE958A;
+    padding-right: 5px;
+}
+
+#html {
+    width: 80%;
+
+}
+
+#css {
+    width: 60%;
+}
+
+#js {
+    width: 30%;
+}
+
+#jquery {
+    width: 25%;
+}
+#mssql{
+    width:35%;
+}
+
+footer{
+    
+    padding: 10px;
+    
+}
