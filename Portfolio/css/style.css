@@ -151,8 +151,8 @@ section{
     text-align: center;
     margin-top:30px;
     margin-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+
+
 }
 
 .portfolio-gallery{
@@ -168,27 +168,28 @@ section{
     float: left;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
 #pf1.gallery{
-    background-image: url(../img/portfolio1.jpg);
+    background-image: url(../img/muhammad-raufan-yusup-254422-unsplash.jpg);
 }
 
 #pf2.gallery{
-    background-image: url(../img/portfolio2.jpg);
+    background-image: url(../img/lee-campbell-86958-unsplash.jpg);
 }
 
 #pf3.gallery{
-    background-image: url(../img/portfolio3.jpg);
+    background-image: url(../img/carl-heyerdahl-181868-unsplash.jpg);
 }
 
 .pf-mask{
-    background-color: rgba(42,61,79,0.8);
+    background-color: rgba(24, 119, 149, 0.8);
     height:100%;
     padding: 10px;
     opacity: 0;
-    transition-duration: 0.5s;
+    transition-duration: 0.8s;
 
 }
 
@@ -214,11 +215,11 @@ section{
 }
 
 .fa-link:hover{
-    color: #1ac056;
+    color: #2C9FDD;
 }
 
 #contact{
-    background-color: #346163;
+    background-color: #122C34;
     overflow: hidden;
     padding: 40px;
 }
