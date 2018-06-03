@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Nunito', sans-serif;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 header {
@@ -72,7 +72,7 @@ header #contact {
     height: 200px;
     width: 350px;
     top: 0px;
-    right: 0px;
+    right: 30px;
     color: #DDD5D0;
 }
 
@@ -95,7 +95,7 @@ header ul#personal-data li.personal {
 
 #main {
     width: 90%;
-    height: 1000px;
+    height: 1200px;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -176,3 +176,4 @@ footer{
     padding: 10px;
     
 }
+
