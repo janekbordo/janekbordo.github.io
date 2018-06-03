@@ -268,22 +268,29 @@ textarea {
 
 textarea {
     height: 100px;
-    background-color: #8BC7E8;
+    background-color: #224870;
     border: 0;
+}
+
+textarea::placeholder{
+    color: #fff;
 }
 
 form input {
     height: 35px;
     padding: 5px;
-    background-color: #8BC7E8;
+    background-color: #224870;
     border: 0;
+}
+form input::placeholder{
+    color:#fff;
 }
 
 #btn {
     height: 40px;
     width: 100px;
-    background-color: #8BC7E8;
-    color: #000;
+    background-color: #224870;
+    color: #fff;
     border: 1px solid #224870;
     text-transform: uppercase;
     float: right;
