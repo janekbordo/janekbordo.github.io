@@ -26,7 +26,7 @@ nav ul {
 }
 
 nav label,
-#rwdmenu{
+#rwdmenu {
     display: none;
 }
 
@@ -38,7 +38,7 @@ nav ul li {
 }
 
 nav ul li.rwd-menu {
-  display: none;
+    display: none;
 }
 
 nav ul li a {
@@ -47,7 +47,7 @@ nav ul li a {
 
 }
 
-a{
+a {
     color: #2589BD;
 }
 
@@ -76,7 +76,7 @@ a{
 
 
 .header-author h2 {
-    font-weight:900;
+    font-weight: 900;
     color: #187795;
 }
 
@@ -99,6 +99,7 @@ section#about-me h2#about-me-header {
 }
 
 /*container jest blokowy, kiedy wrzuce za ostatni element float "clear",te style sa niepotrzebne*/
+
 .container-about-me {
     display: inline-block;
     width: 100%;
@@ -119,50 +120,48 @@ section#about-me h2#about-me-header {
     border-radius: 5px;
 }
 
-.about-me p{
+.about-me p {
     text-align: left;
     padding: 10px;
 }
 
-h2{
+h2 {
     margin-bottom: 30px;
 }
 
-.skills{
+.skills {
     text-align: center;
 }
 
-.skills-logo{
+.skills-logo {}
 
-}
-
-.skills-logo figure{
+.skills-logo figure {
     display: inline-block;
 }
 
 
 
-section{
+section {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.portfolio{
+.portfolio {
     text-align: center;
-    margin-top:30px;
+    margin-top: 30px;
     margin-bottom: 30px;
 
 
 }
 
-.portfolio-gallery{
+.portfolio-gallery {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    margin-top:30px;   
+    margin-top: 30px;
 }
 
-.gallery{
+.gallery {
     height: 350px;
     width: 33.3333%;
     float: left;
@@ -172,137 +171,138 @@ section{
 
 }
 
-#pf1.gallery{
+#pf1.gallery {
     background-image: url(../img/muhammad-raufan-yusup-254422-unsplash.jpg);
 }
 
-#pf2.gallery{
+#pf2.gallery {
     background-image: url(../img/lee-campbell-86958-unsplash.jpg);
 }
 
-#pf3.gallery{
+#pf3.gallery {
     background-image: url(../img/carl-heyerdahl-181868-unsplash.jpg);
 }
 
-.pf-mask{
+.pf-mask {
     background-color: rgba(24, 119, 149, 0.8);
-    height:100%;
+    height: 100%;
     padding: 10px;
     opacity: 0;
     transition-duration: 0.8s;
 
 }
 
-.pf-border{
+.pf-border {
     position: relative;
-    height:100%;
+    height: 100%;
     border: 1px solid #ffffff;
 }
 
-.pf-text{
+.pf-text {
     text-align: center;
     color: #ffffff;
 }
 
-.pf-mask:hover{
+.pf-mask:hover {
     opacity: 1;
 }
 
 
-.fa-link{
+.fa-link {
     color: #ffffff;
     font-size: 20px;
 }
 
-.fa-link:hover{
+.fa-link:hover {
     color: #2C9FDD;
 }
 
-#contact{
+#contact {
     background-color: #122C34;
     overflow: hidden;
     padding: 40px;
 }
 
-.address{
+.address {
     width: 50%;
-    display:inline-block;
+    display: inline-block;
     float: left;
     padding: 10px;
 
 }
 
-address{
+address {
     padding-left: 10px;
-    font-style:normal;
+    font-style: normal;
     color: #ffffff;
     font-weight: lighter;
 }
 
-.sm-icons{
-    color:#ffffff;
-    font-size:15px;
-    margin-top:10px;
+.sm-icons {
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 10px;
 }
 
 .sm-icons a {
-    color: #ffffff;    
+    color: #ffffff;
 }
 
 
-i.fab{
+i.fab {
     border: 1px solid #ffffff;
     height: 30px;
     width: 30px;
     text-align: center;
-    margin:10px;
+    margin: 10px;
     line-height: 30px;
 }
 
 form input,
-textarea{
-width:100%;
-margin: 5px 0;
-background-color: #213b50;
+textarea {
+    width: 100%;
+    margin: 5px 0;
+    background-color: #213b50;
 
 }
 
-textarea{
-    height:100px;
-    background-color: #A3B4A2;
+textarea {
+    height: 100px;
+    background-color: #8BC7E8;
     border: 0;
 }
 
-form input{
+form input {
     height: 35px;
     padding: 5px;
-    background-color: #A3B4A2;
+    background-color: #8BC7E8;
     border: 0;
 }
 
-#btn{
-    height:40px;
+#btn {
+    height: 40px;
     width: 100px;
-    background-color: #A3B4A2;
-    color: #ffffff;
-    border: 1px solid #ffffff;
+    background-color: #8BC7E8;
+    color: #000;
+    border: 1px solid #224870;
+    text-transform: uppercase;
     float: right;
 }
 
-span#mail{
+span#mail {
     text-decoration: underline;
 }
 
-footer{
-    background-color: #A3B4A2;
-    height:30px;
-    margin:0;
-    color:white;
+footer {
+    background-color: #224870;
+    height: 30px;
+    margin: 0;
+    color: white;
     font-weight: 100;
-    padding-left:40px;
+    padding-left: 40px;
     line-height: 30px;
 }
 
-footer p{
-    margin:0;
+footer p {
+    margin: 0;
 }
