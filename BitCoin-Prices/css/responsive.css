@@ -1,0 +1,31 @@
+@media all and (max-width: 992px) {
+    font
+}
+
+
+@media all and (max-width: 768px) {
+
+    body {
+        font-family: 'Rajdhani', 'sans-serif';
+        font-size: 3vw;
+        background-color: slategrey;
+       
+    }
+    
+    #main{
+        color:#fff;
+    }
+    #main .inner-main {
+        display: block;
+        padding: 10px;
+    }
+    #background {
+        display: none;
+    }
+}
+
+@media all and (max-width: 600px) {
+    body {
+        font-size: 4vw;
+    }
+}
