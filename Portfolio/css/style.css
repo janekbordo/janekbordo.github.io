@@ -139,6 +139,10 @@ h2 {
     display: inline-block;
 }
 
+.skills-logo figure img:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
 
 
 section {
@@ -243,6 +247,13 @@ address {
     font-size: 15px;
     margin-top: 10px;
 }
+/*
+.sm-icons:hover{
+    color:#2C9FDD;
+    transform: rotate(360deg);
+    transition-duration: 0.6s;
+}
+*/
 
 .sm-icons a {
     color: #ffffff;
@@ -256,6 +267,12 @@ i.fab {
     text-align: center;
     margin: 10px;
     line-height: 30px;
+}
+
+i.fab:hover{
+    color:#2C9FDD;
+    transform: rotate(360deg);
+    transition-duration: 0.6s;
 }
 
 form input,
