@@ -19,6 +19,11 @@ body {
 
 }
 
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /*header*/
 
 #main-header {
@@ -86,12 +91,10 @@ button:hover,
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    margin-top: 50px;
 }
 
 .container h3 {
     text-transform: uppercase;
-    margin-top: 50px;
 }
 
 #services .container .row {
@@ -201,13 +204,6 @@ button:hover,
     color: #000;
 }
 
-#team .container {
-    height: 100vh;
-}
-#team .container header{
-    
-}
-
 #team .container .row .col-lg-4 {
     display: flex;
     justify-content: center;
@@ -228,24 +224,109 @@ button:hover,
     border-radius: 50%;
 }
 
-#team .container .row .col-lg-4 .team-member .team-sm-icons{
+#team .container .row .col-lg-4 .team-member .team-sm-icons {
 
     height: 100px;
 
 }
 
-#team .container .row .col-lg-4 .team-member .team-sm-icons i{
-    height:50px;
+#team .container .row .col-lg-4 .team-member .team-sm-icons i {
+    height: 50px;
     width: 50px;
     font-size: 30px;
-    color:#fff;
+    color: #fff;
     background-color: #0066ff;
     border-radius: 50%;
     line-height: 50px;
 }
 
-#team .container .row .col-lg-4 .team-member .team-sm-icons i:hover{
+#team .container .row .col-lg-4 .team-member .team-sm-icons i:hover {
     background-color: #0ed8d6;
     transition: all 0.5s;
-   
+
+}
+
+/*CONTACT*/
+
+#contact {
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/matthew-henry-49707-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contact .container form .form-row {
+    margin-top: 30px;
+}
+
+#contact .container form .form-row .col-lg-6 textarea {
+    height: 200px;
+}
+
+
+
+#contact .container form .form-row .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contact .container form .form-row .col-lg-6 .input-custom {
+    height: 50px;
+}
+
+#contact .container form .form-row .col-lg-12 button .btn-custom:hover {
+    background-color: #0ed8d6;
+    transition-duration: 0.6s;
+}
+
+/*FOOTER*/
+
+#main-footer {
+    height: 80px;
+    color: black;
+}
+
+#main-footer .container .row .col-lg-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 80px;
+}
+
+#main-footer .container .row .team-sm-icons{
+    text-align: center;
+}
+
+#main-footer .container .row .sm-footer{
+    justify-content: center;
+}
+
+#main-footer .container .row .team-sm-icons a i {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    color: #fff;
+    background-color: #0066ff;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+}
+
+#main-footer .container .row .team-sm-icons a i:hover {
+    background-color: #0ed8d6;
+    transition: all 0.5s;
+}
+
+/*NAV FOOTER*/
+
+
+#main-footer .container .row .col-lg-4.nav-footer{
+    justify-content: flex-end;
+}
+
+#main-footer .container .row .col-lg-4.nav-footer ul li a:hover{
+    color:#0ed8d6;
+    text-decoration: none;
 }
