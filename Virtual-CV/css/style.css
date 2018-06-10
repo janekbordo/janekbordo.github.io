@@ -100,7 +100,7 @@ header ul#personal-data li.personal a{
 
 #main {
     width: 90%;
-    height: 1200px;
+    height: 1250px;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -177,9 +177,9 @@ h2 {
 }
 
 footer{
-    
     padding: 10px;
     width: 100%;
-    
+    position: absolute;
+    text-align: center;
 }
 
