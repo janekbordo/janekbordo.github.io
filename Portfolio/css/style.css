@@ -4,9 +4,8 @@
 
 body {
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Dosis', sans-serif;
     color: #291f1a;
-
 }
 
 nav {
@@ -45,24 +44,21 @@ nav ul li.rwd-menu {
 nav ul li a {
     text-decoration: none;
     color: #2589BD;
-
 }
 
 a {
     color: #2589BD;
 }
 
-
 #header {
-    background-image: url(../img/ian-schneider-66374-unsplash.jpg);
+    background-image: url(../img/james-traf-242341-unsplash.jpg);
     background-size: 100%;
     background-size: cover;
     height: 100vh;
-
 }
 
 .header-author {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gruppo', sans-serif;
     color: #ffffff;
     position: absolute;
     width: 100%;
@@ -73,12 +69,13 @@ a {
 .header-author h1 {
     font-weight: lighter;
     font-size: 70px;
+    letter-spacing: 3px;
 }
-
 
 .header-author h2 {
     font-weight: 900;
-    color: #187795;
+    color: #FFD700;
+    letter-spacing: 3px;
 }
 
 span {
@@ -93,10 +90,10 @@ section#about-me {
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
+
 section#about-me h2#about-me-header {
     text-align: center;
     font-weight: 300;
-
 }
 
 /*container jest blokowy, kiedy wrzuce za ostatni element float "clear",te style sa niepotrzebne*/
@@ -106,6 +103,11 @@ section#about-me h2#about-me-header {
     width: 100%;
 }
 
+.container-about-me .about-me figure img{
+    height:300px;
+    width:250px;
+    object-fit: cover;
+}
 .about-me {
     width: 50%;
     display: inline-block;
@@ -140,11 +142,10 @@ h2 {
     display: inline-block;
 }
 
-.skills-logo figure img:hover{
+.skills-logo figure img:hover {
     transform: scale(1.2);
     transition-duration: 0.5s;
 }
-
 
 section {
     padding-top: 30px;
@@ -155,8 +156,6 @@ section {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
-
-
 }
 
 .portfolio-gallery {
@@ -173,7 +172,6 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 #pf1.gallery {
@@ -188,15 +186,15 @@ section {
     background-image: url(../img/carl-heyerdahl-181868-unsplash.jpg);
 }
 
-#pf4.gallery{
+#pf4.gallery {
     background-image: url(../img/artem-bali-590545-unsplash.jpg);
 }
 
-#pf5.gallery{
+#pf5.gallery {
     background-image: url(../img/rawpixel-561415-unsplash.jpg);
 }
 
-#pf6.gallery{
+#pf6.gallery {
     background-image: url(../img/jeremy-dorrough-602363-unsplash.jpg);
 }
 
@@ -206,7 +204,6 @@ section {
     padding: 10px;
     opacity: 0;
     transition-duration: 0.8s;
-
 }
 
 .pf-border {
@@ -223,7 +220,6 @@ section {
 .pf-mask:hover {
     opacity: 1;
 }
-
 
 .fa-link {
     color: #ffffff;
@@ -245,7 +241,6 @@ section {
     display: inline-block;
     float: left;
     padding: 10px;
-
 }
 
 address {
@@ -260,6 +255,7 @@ address {
     font-size: 15px;
     margin-top: 10px;
 }
+
 /*
 .sm-icons:hover{
     color:#2C9FDD;
@@ -272,7 +268,6 @@ address {
     color: #ffffff;
 }
 
-
 i.fab {
     border: 1px solid #ffffff;
     height: 30px;
@@ -282,8 +277,8 @@ i.fab {
     line-height: 30px;
 }
 
-i.fab:hover{
-    color:#2C9FDD;
+i.fab:hover {
+    color: #2C9FDD;
     transform: rotate(360deg);
     transition-duration: 0.6s;
 }
@@ -294,7 +289,6 @@ textarea {
     margin: 5px 0;
     background-color: #213b50;
     border-radius: 5px;
-
 }
 
 textarea {
@@ -304,7 +298,7 @@ textarea {
     border-radius: 5px;
 }
 
-textarea::placeholder{
+textarea::placeholder {
     color: #fff;
 }
 
@@ -314,8 +308,9 @@ form input {
     background-color: #224870;
     border: 0;
 }
-form input::placeholder{
-    color:#fff;
+
+form input::placeholder {
+    color: #fff;
 }
 
 #btn {
