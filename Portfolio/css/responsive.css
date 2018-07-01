@@ -9,10 +9,10 @@
         display: inline-block;
         float: left;
         padding: 5px;
-        font-size: 2vw;
+        font-size: 12px;
     }
     .skills p {
-        font-size: 2vw;
+        font-size: 12px;
     }
 
     #pf1.gallery {
@@ -27,6 +27,24 @@
     }
 
     #pf3.gallery {
+
+        width: 100%;
+        background-size: cover;
+    }
+
+    #pf4.gallery {
+
+        width: 100%;
+        background-size: cover;
+    }
+
+    #pf5.gallery {
+
+        width: 100%;
+        background-size: cover;
+    }
+
+    #pf6.gallery {
 
         width: 100%;
         background-size: cover;
