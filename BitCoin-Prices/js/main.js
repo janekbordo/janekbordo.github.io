@@ -1,7 +1,5 @@
 $(document).ready(function () {
 
-
-
     function getPLNData() {
         var buyPrice = $('#buy-price').html();
         var sellPrice = $('#sell-price').html();
@@ -10,7 +8,6 @@ $(document).ready(function () {
             var PLNbuy = data.PLN.buy.toFixed(2);
             var PLNsell = data.PLN.sell.toFixed(2);
             var PLNsymbol = data.PLN.symbol;
-            console.log(data.PLN.buy);
 
             $('#buy-price').text(PLNbuy + PLNsymbol);
 
