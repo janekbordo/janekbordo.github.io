@@ -158,6 +158,28 @@ section {
     padding-bottom: 30px;
 }
 
+.paidprojects {
+    text-align: center;
+    font-size: 18px;
+}
+.paidprojects-logos figure {
+    display: inline-block;
+}
+
+.paidprojects-logos figure img {
+    filter: grayscale(100%);
+}
+
+.paidprojects-logos figure img:hover {
+    filter: grayscale(0%);
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 20px 98px 10px rgba(0,0,0,0.62);
+    -moz-box-shadow: 0px 20px 98px 10px rgba(0,0,0,0.62);
+    box-shadow: 0px 20px 98px 10px rgba(0,0,0,0.62);
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
 .portfolio {
     text-align: center;
     margin-top: 30px;
